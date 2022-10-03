@@ -20,7 +20,7 @@ function SideBar() {
                     <Menu id="btn" color="white" onClick={handelClickBtnMenu} size={30}></Menu>
                 </div>
                 <ul className="nav_list">
-                    {/* <li className="d-flex">
+                    <li className="d-flex">
                         <Link to={'/'}>
                             <Grid className="icons" size={30} />
                             <span className="ms-2 link_name">Trang chủ</span>
@@ -41,18 +41,6 @@ function SideBar() {
                         </Link>
                         <span className="tooltip">Quản lý sản phẩm</span>
                     </li>
-                    <li className="d-flex">
-                       <ul>
-                            <li>
-                            <Link to={'/'}>
-                            <Grid className="icons" size={30} />
-                            <span className="ms-2 link_name">Quản lý sản phẩm</span>
-                            </Link>
-                            <span className="tooltip">Quản lý sản phẩm</span>
-                                </li>
-                       </ul>
-                    </li> */}
-                    { items.map((item, index) => <SidebarItem key={index} item={item} />) }
                 </ul>
                 
             </div>

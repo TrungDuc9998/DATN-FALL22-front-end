@@ -3,7 +3,7 @@ import SideBar from "./SideBar";
 import classNames from "classnames";
 import styles from "./DefaultLayout.module.scss";
 const cx = classNames.bind(styles);
-
+///layout chính
 function DefaultLayout({ children }) {
  
   return (
