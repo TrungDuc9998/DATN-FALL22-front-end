@@ -6,6 +6,7 @@ import {
   Search,
   RefreshCw,
   XCircle,
+  Eye
 } from "react-feather";
 import React, { useEffect, useState } from "react";
 import Button from "react-bootstrap/Button";
@@ -46,7 +47,7 @@ function Category() {
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
   return (
-    <div className="bg-primary" style={{ marginRight: "20px", marginLeft: a }}>
+    <div className="" style={{ marginRight: "20px", marginLeft: a }}>
       <h3 className="mt-4">Danh sách thể loại</h3>
       <div className="card mt-3">
         <form className="mt-3 mb-3">
@@ -125,7 +126,7 @@ function Category() {
               <th>Thời gian tạo</th>
               <th>Người tạo</th>
               <th>Trạng thái</th>
-              <th colSpan={3}>Hành động</th>
+              <th colSpan={4}>Hành động</th>
             </tr>
           </thead>
           <tbody>
@@ -141,6 +142,11 @@ function Category() {
                 >
                   <p className="pt-2 pb-2">Hoạt động</p>
                 </div>
+              </td>
+              <td>
+                <button className="btn btn-outline-dark">
+                  <Eye size={20} />
+                </button>
               </td>
               <td>
                 <button className="btn btn-primary">
@@ -172,6 +178,11 @@ function Category() {
                 </div>
               </td>
               <td>
+                <button className="btn btn-outline-dark">
+                  <Eye size={20} />
+                </button>
+              </td>
+              <td>
                 <button className="btn btn-primary">
                   <Edit size={20} />
                 </button>
@@ -201,6 +212,11 @@ function Category() {
                 </div>
               </td>
               <td>
+                <button className="btn btn-outline-dark">
+                  <Eye size={20} />
+                </button>
+              </td>
+              <td>
                 <button className="btn btn-primary">
                   <Edit size={20} />
                 </button>
@@ -228,6 +244,11 @@ function Category() {
                 >
                   <p className="pt-2 pb-2">Hoạt động</p>
                 </div>
+              </td>
+              <td>
+                <button className="btn btn-outline-dark">
+                  <Eye size={20} />
+                </button>
               </td>
               <td>
                 <button className="btn btn-primary">

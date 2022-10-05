@@ -1,8 +1,5 @@
 @import 'normalize.css';
-//css global
-// body {
-//    background-color: rgb(248,249,254);
-// }
+
 
 .sidebar {
     position: fixed;
@@ -138,12 +135,14 @@
 
 .sidebar ul li .tooltip {
     position: absolute;
-    height: 25px;
+    height: 30px;
+    // margin-left: 30px;
+    min-width: 180px;
     line-height: 9px;
     font-size: 16px;
     font-weight: 400;
     color: #11101d;
-    left: 150%;
+    left: 350%;
     transform: translate(-70%, -120%);
     border: solid rgb(64, 64, 64) 1px;
     border-radius: 10px;
@@ -172,11 +171,13 @@
 .sidebar .link_name {
     opacity: 0;
     pointer-events: auto;
+   
 }
 
 .sidebar.active .link_name {
     opacity: 1;
     pointer-events: auto;
+    // position: absolute;
 }
 
 
@@ -244,7 +245,7 @@
 }
 
 .content {
-    margin-left: 6%;
+    margin-left: 5%;
     transition: all 0.5s ease;
 }
 
