@@ -1,6 +1,9 @@
+import Img from "../../assets/images/5be98e06c77ea.jpg"
 function Home() {
     return (
-        <h1 className="text-danger" >Home</h1>
+       <div>
+          <img src={Img} width={"100%"} height={"50%"} style={{margin:"0",padding:"0"}}/>
+       </div>
       );
 }
 
