@@ -9,7 +9,7 @@ function DefaultLayout({ children }) {
   return (
     <div className={cx('wrapper')}>
         <Header/>
-        <div className="d-flex">
+        <div className="">
         <SideBar/>
         <div className={cx('content')}>{children}</div>
     </div>       
