@@ -35,7 +35,7 @@ function SideBar() {
                         <span className="tooltip">Quản lý loại sản phẩm</span>
                     </li>
                     <li className="d-flex">
-                        <Link to={'/'}>
+                        <Link to={'/product'}>
                             <Grid className="icons" size={30} />
                             <span className="ms-2 link_name">Quản lý sản phẩm</span>
                         </Link>
